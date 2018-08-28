@@ -1,4 +1,4 @@
-package erlcm;
+package obs;
 
 struct rect_list_t
 {
