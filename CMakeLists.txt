@@ -9,7 +9,7 @@ include(cmake/pods.cmake)
 include(cmake/lcmtypes.cmake)
 lcmtypes_build(C_AGGREGATE_HEADER obstacle_detector_lcmtypes.h)
 
-pods_install_pkg_config_file(lcmtypes_obstacle-detector-lcmtypes
+pods_install_pkg_config_file(lcmtypes_obstacle-detector
     LIBS -l${LCMTYPES_LIBS}
     REQUIRES lcm
     VERSION 0.0.1)
